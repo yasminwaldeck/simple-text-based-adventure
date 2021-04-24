@@ -9,13 +9,15 @@ public class Player {
     private int hp;
     private int maxHP;
     private int luck;
+    private String name;
 
     public Player(){
         xp = 0;
         level = 1;
         hp = 5;
         maxHP = 5;
-        luck = 0.5;
+        luck = 50;
+        name = "undefined";
     }
 
     //Set & Get
@@ -61,6 +63,14 @@ public class Player {
 
     public void setLuck(int n){
         luck = n;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String input){
+        name = input;
     }
 
     //Other helpers
