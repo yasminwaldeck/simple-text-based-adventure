@@ -12,3 +12,8 @@ I will probably continue working on it every now and then.
 
 - Death by snakes (default ending whenever I have not worked on branches yet)
 - Death by ork (to be added to actual storyline)
+
+# Monsters
+- Orks
+- Vampires
+- Default monsters

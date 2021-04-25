@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Scenarios {
@@ -7,21 +9,18 @@ public class Scenarios {
     private Player you = new Player();
     private Death death = new Death();
 
+
     public void scenario1() {
         System.out.println("You wake up. Someone is knocking on the door. What do you do?");
         System.out.println("a. Open the door.");
         System.out.println("b. Hide in bed.");
         switch (in.nextLine()) {
-            case "a":
-                greeting();
-                break;
-            case "b":
-                continueKnocking();
-                break;
-            default:
+            case "a" -> greeting();
+            case "b" -> continueKnocking();
+            default -> {
                 System.out.println("That is not an option, idiot. Try again.");
                 scenario1();
-                break;
+            }
         }
     }
 
@@ -41,16 +40,12 @@ public class Scenarios {
         System.out.println("a. Open the door.");
         System.out.println("b. Hide in bed.");
         switch (in.nextLine()) {
-            case "a":
-                greeting();
-                break;
-            case "b":
-                continueKnocking();
-                break;
-            default:
+            case "a" -> greeting();
+            case "b" -> continueKnocking();
+            default -> {
                 System.out.println("That is not an option, idiot. Try again.");
                 scenario1();
-                break;
+            }
         }
     }
 
