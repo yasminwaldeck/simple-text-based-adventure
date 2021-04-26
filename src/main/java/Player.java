@@ -52,7 +52,7 @@ public class Player {
         return maxHP;
     }
 
-    public void setMaxXP(int n){
+    public void setMaxHP(int n){
         maxHP = n;
     }
 
