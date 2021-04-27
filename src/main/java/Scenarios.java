@@ -1,5 +1,5 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+import de.yasminwaldeck.adventure.model.Player;
+
 import java.util.Scanner;
 
 public class Scenarios {

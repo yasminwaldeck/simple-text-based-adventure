@@ -1,3 +1,5 @@
+package de.yasminwaldeck.adventure.model;
+
 public class Player {
 
 
